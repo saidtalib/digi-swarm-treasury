@@ -1,0 +1,26 @@
+{
+  "name": "digi-swarm-treasury-agent",
+  "version": "1.0.0",
+  "description": "Off-chain agents (scout, coordinator, workers, treasury) for the Digi Swarm Treasury NEAR contract",
+  "scripts": {
+    "setup": "node src/setup.js",
+    "scout": "node src/scout.js",
+    "swarm": "node src/swarm.js",
+    "attack": "node src/attack.js",
+    "owner": "node src/owner.js",
+    "verify": "node src/verify.js",
+    "dashboard": "node src/dashboard.js",
+    "demo": "node src/demo.js",
+    "test:contract": "cd ../contract && cargo test"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@noble/hashes": "^2.4.0",
+    "bs58": "^6.0.0",
+    "near-api-js": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

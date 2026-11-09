@@ -1,0 +1,9 @@
+# secrets and local state
+.keys/
+deployment.json
+out/
+.env
+*.env
+# build
+node_modules/
+contract/target/

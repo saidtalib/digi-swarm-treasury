@@ -1,0 +1,25 @@
+[package]
+name = "digi-swarm-treasury"
+version = "0.1.0"
+edition = "2021"
+description = "Policy-gated treasury and job auction for an autonomous agent swarm on NEAR"
+license = "MIT"
+repository = "https://github.com/saidtalib/digi-swarm-treasury"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "5"
+hex = "0.4"
+
+[dev-dependencies]
+near-sdk = { version = "5", features = ["unit-testing"] }
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true

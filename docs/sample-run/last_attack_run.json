@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-09T05:30:06.489Z",
+  "contract": "digi-swarm-hq.testnet",
+  "results": [
+    {
+      "step": "1. payout to known scam account via contract",
+      "outcome": "blocked:destination_blocklisted",
+      "tx": "DdSJNpmki5m8X5VBg612SsGPvHLLgkRgJyzHYrdqbeRK"
+    },
+    {
+      "step": "2. small payout to unknown account",
+      "outcome": "blocked:destination_not_allowlisted",
+      "tx": "FdZspqzbNXP349EAaTu4jnNx2p6bpzomUMBa3oGELxWE"
+    },
+    {
+      "step": "3. direct transfer with the agent key",
+      "outcome": "rejected by the NEAR protocol: AccessKeyRequiresFullAccessActionError: function-call key cannot transfer"
+    },
+    {
+      "step": "4. agent tries set_policy",
+      "outcome": "rejected: AccessKeyMethodNameMismatchActionError (method not allowed on agent key)"
+    },
+    {
+      "step": "5. USDC to attacker on Base via Intents",
+      "outcome": "blocked:destination_not_allowlisted",
+      "tx": "EQJnKn94dk76StcpzkJr8JcCUqyrVJkHCGC6m5rndG8Y"
+    },
+    {
+      "step": "6. $500 intent to allowlisted researcher",
+      "outcome": "blocked:over_intent_cap",
+      "tx": "Ej5JheKdBJYGC7kNdKQGvoGgCfZUkErCWNDE3mC6Fft"
+    },
+    {
+      "step": "7. 0.03 NEAR to registered worker coder",
+      "outcome": "executed",
+      "tx": "FU4omwsSHn7Q3P28ScFF3RVxMCD3MfFSkYNjH8G5aiTH"
+    },
+    {
+      "step": "8. 0.2 NEAR bonus to writer",
+      "outcome": "queued:needs_owner_approval:over_per_tx_cap#0",
+      "tx": "44w1kMo33i9hQjLWbRkYbTLbbUmimsqqXJT81wrcmKw1"
+    }
+  ]
+}

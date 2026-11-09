@@ -1,0 +1,57 @@
+{
+  "network": "testnet",
+  "contract": "digi-swarm-hq.testnet",
+  "owner": "owner.digi-swarm-hq.testnet",
+  "coordinator": "coordinator.digi-swarm-hq.testnet",
+  "client": "client.digi-swarm-hq.testnet",
+  "workers": [
+    {
+      "prefix": "researcher",
+      "role": "research",
+      "payoutChain": "base",
+      "account": "researcher.digi-swarm-hq.testnet",
+      "evm": "0xF74b28A61E44Eb252208aeA17eeB4BBCe98baD38"
+    },
+    {
+      "prefix": "coder",
+      "role": "code",
+      "payoutChain": "arb",
+      "account": "coder.digi-swarm-hq.testnet",
+      "evm": "0xAf651C2cb8452DCd6F2DD218177d29d28B13B5b6"
+    },
+    {
+      "prefix": "writer",
+      "role": "writing",
+      "payoutChain": "base",
+      "account": "writer.digi-swarm-hq.testnet",
+      "evm": "0x4Ac404Ef6BD86642DEC2d09d8d013B090B8bF8F2"
+    }
+  ],
+  "policy": {
+    "max_payout_per_tx": "50000000000000000000000",
+    "daily_cap": "120000000000000000000000",
+    "sweep_threshold": "700000000000000000000000",
+    "sweep_keep": "500000000000000000000000",
+    "max_intent_usd_cents": "10000",
+    "paused": false,
+    "ledger": "owner.digi-swarm-hq.testnet"
+  },
+  "created_at": "2026-11-09T05:25:34.185Z",
+  "txs": {
+    "create_owner": "2bLJ1AnTViZProsXS6j2oQ8PKyu11q6ZGteH6SE3vLND",
+    "create_coordinator": "6GEgH5uwh5Kt8ftkF4cQCbWPcbQ7GvDGvgfe7UEUtMRk",
+    "create_client": "BT3pYF3rHTQUqGdLvsTTksY6fX1UzNXsVzVpkVcGBGsB",
+    "create_researcher": "BG5dXLSefJVYDB9NcHXKfrMC3JGtAst1sDyZuN52jEpD",
+    "create_coder": "3H4NShsQXKnNBTUfhcBfFYSToyLSwftZyHn4ibDYqzx1",
+    "create_writer": "4uZZdJZTKybgGaBjVBp3fDu15xPPaNugAhFMBpVaZMVX",
+    "deploy_and_init": "BxEbCH5xEkWavtRQH2F2afkYAsGWXpy9QCHUEo96YjNB",
+    "allow_researcher": "BPaUgHziM2DBUFd9fywYrXMUuVnBSK6gyBrMpST5xCL3",
+    "allow_coder": "3bUtCe89bNjANPjhiJe2rgBUaMoRzK1sRGSpPtf2fsCi",
+    "allow_writer": "4wTCgKK7NuQW8683AyHhywCqjxLiBx6sb59mDV2n3sjf",
+    "block_scam": "2XHXrRySWhMwmHuC1vHMrRbesmHxR1NZbzkkZNwEv8xX",
+    "fund": "BtWS6XL2vnXLPr3rwKjKCGmhV6ZindnxkoYL2MWzj2WC",
+    "register_researcher": "6wuCCwebpwz75o6567tLeKT2Qmq6qyVsWDtnvttJePU7",
+    "register_coder": "BcuBuUWkFXVBZ3vgtcRw2jUpV4xyNEdJKHzXZEojdipa",
+    "register_writer": "9a4e9e7QKmJqf2djkprCXJJX7KGpbDsECLZcQdYxZakH"
+  }
+}

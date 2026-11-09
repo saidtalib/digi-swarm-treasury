@@ -1,0 +1,117 @@
+{
+  "started_at": "2026-11-09T05:25:37.044Z",
+  "contract": "digi-swarm-hq.testnet",
+  "jobs": [
+    {
+      "jobId": "1896444d-mw8tiavr",
+      "marketJobId": "1896444d-19c1-4d98-a32a-f6aab0ff2650",
+      "title": "Sentinel IR MCP Agent",
+      "usd": 100,
+      "reward": "200000000000000000000000",
+      "txs": {
+        "post": "2E2KD4da8Hm95rREUEfCTjCj8xvEiTVqMyckJW4MxKL7",
+        "bid_coder": "3ZPLsm6s9ZXoaQvt189bUwsHJeFb5rhCeoW9UPW3mhbc",
+        "close": "9RLRv89fjFx44fh1m2gp5qbg4Wm1NbSXeHGH8aDFpsL1",
+        "deliver": "pj9DU7kveBYQcFfdndNpwE8u8DLtjbMSeKd5GZqzKVN",
+        "pay": "m9bPv6gfk4kN5r3T8eDVgKyMoZz1Tt8x7wLmmZPnHN8"
+      },
+      "winner": "coder.digi-swarm-hq.testnet",
+      "deliverable": {
+        "file": "out/deliverables/1896444d-mw8tiavr.md",
+        "sha256": "5387dd3b283db854d1d7686cb3635ad0bf836db639651d3ec3cc1c6ac3f77466",
+        "engine": "template"
+      },
+      "workerCut": "140000000000000000000000"
+    },
+    {
+      "jobId": "e01a39f1-mw8tjgzw",
+      "marketJobId": "e01a39f1-85e4-4038-89d4-184fe57ae20e",
+      "title": "Brand Name Checker: Domains, Handles & Trademarks",
+      "usd": 60,
+      "reward": "120000000000000000000000",
+      "txs": {
+        "post": "CndY4SPWeYiSkaGBNkE3btyMREPBkzqAjjKs1GQDF1qE",
+        "bid_researcher": "GqYJxZ3Gh8Se2osvdXrzxMu9WKrRuSjmbukefzy7dqEw",
+        "bid_writer": "ST2JQHFWhh4x5AeEotZmkHi2DyXVMDweyV147RdxtRp",
+        "close": "7LybMvSC37tDBMhhTrVk27ziYe3WegojArCNPsC1s4zL",
+        "deliver": "D9wir8eMKj9EENfhpMr656PNkzoMkSKTcoaAP9zUMQo1",
+        "pay": "4JJV79kDikE84ENPPk4zdzyMSbsUeeBAufJpjwfPGnJs"
+      },
+      "winner": "researcher.digi-swarm-hq.testnet",
+      "deliverable": {
+        "file": "out/deliverables/e01a39f1-mw8tjgzw.md",
+        "sha256": "8d59c41186c96950db8d90437e549a58489d6791badd5b4fa6175abe2cee1698",
+        "engine": "template"
+      },
+      "workerCut": "81960000000000000000000"
+    },
+    {
+      "jobId": "481516a5-mw8tktdw",
+      "marketJobId": "481516a5-6030-43f3-a419-67d580a71002",
+      "title": "Local Services Quote Agent",
+      "usd": 250,
+      "reward": "300000000000000000000000",
+      "txs": {
+        "post": "5UvoJjHUhUFbo8RpsAqmQ3LyC6WsfovQ5GyAHFVJBtBP",
+        "bid_researcher": "6Ya7nFeFeyGHuXFjZQfCUVAhBCiwrVvLUrJa31LiTjX3",
+        "bid_writer": "EsqAs6ZtWi1oq5MU3pQfBgsioXGmE5GtnLusTqdNs7qD",
+        "close": "5ZJnCBKJAEfW4VHqAipTyfo6Spsjsi3yNeCYFX3bev9X",
+        "deliver": "59spprXHYWnb22NKqHuVcfcxsPgT2h91Tn6XQCb9em5A",
+        "pay": "E4tjBUBf5GRqkJtpaAgZSsuX282D1eeGNhVd8y8hFx2A"
+      },
+      "winner": "researcher.digi-swarm-hq.testnet",
+      "deliverable": {
+        "file": "out/deliverables/481516a5-mw8tktdw.md",
+        "sha256": "16e622608094432cb76e55b12a45505c50dafafd2fc185716bf4b4c7d6a1b3fe",
+        "engine": "template"
+      },
+      "workerCut": "223500000000000000000000"
+    }
+  ],
+  "intents": [
+    {
+      "jobId": "1896444d-mw8tiavr",
+      "worker": "coder.digi-swarm-hq.testnet",
+      "chain": "arb",
+      "recipient": "0xAf651C2cb8452DCd6F2DD218177d29d28B13B5b6",
+      "usd": 70,
+      "quoteOut": "69.982241",
+      "decision": "authorized",
+      "tx": "2TLJJ84QvQsHgsqDXiAJxLZoohXms2H4KTUQXLAaL8AJ"
+    },
+    {
+      "jobId": "e01a39f1-mw8tjgzw",
+      "worker": "researcher.digi-swarm-hq.testnet",
+      "chain": "base",
+      "recipient": "0xF74b28A61E44Eb252208aeA17eeB4BBCe98baD38",
+      "usd": 40.98,
+      "quoteOut": "40.969732",
+      "decision": "authorized",
+      "tx": "HA6XPcHJLmxmZRNeZaqH9gETVbKypdXfFbXnppDhgoPP"
+    },
+    {
+      "jobId": "481516a5-mw8tktdw",
+      "worker": "researcher.digi-swarm-hq.testnet",
+      "chain": "base",
+      "recipient": "0xF74b28A61E44Eb252208aeA17eeB4BBCe98baD38",
+      "usd": 186.25,
+      "quoteOut": "186.233598",
+      "decision": "blocked:over_intent_cap",
+      "tx": "8jDUaUC6SKf4nJCuhYTDifAugpx3bScLTzVKNbZ6zrj7"
+    }
+  ],
+  "finished_at": "2026-11-09T05:28:41.617Z",
+  "stats": {
+    "owner": "owner.digi-swarm-hq.testnet",
+    "coordinator": "coordinator.digi-swarm-hq.testnet",
+    "treasury_balance": "500000000000000000000000",
+    "total_earned": "620000000000000000000000",
+    "total_paid_out": "0",
+    "total_swept": "274540000000000000000000",
+    "spent_today": "0",
+    "workers": 3,
+    "jobs": 3,
+    "audit_len": "30",
+    "audit_head": "ed305d94d282e4ac37445e8b1ec3f58a4e624874acabfedad10a45aefa59dbf0"
+  }
+}
